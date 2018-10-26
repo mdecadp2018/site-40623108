@@ -9,3 +9,6 @@ https://mdecadp2018.github.io/site-40623108/content/index.html
 BLOG:
 https://mdecadp2018.github.io/site-40623108/blog/index.html
 
+REVEAL:
+https://mdecadp2018.github.io/site-40623108/reveal/index.html#/
+
