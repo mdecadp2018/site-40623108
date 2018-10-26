@@ -4,11 +4,11 @@
 https://github.com/mdecadp2018/site-40623108
 
 網站:
-https://mdecadp2018.github.io/site-40623108/content/index.html
+https://mdecadp2018.github.io/site-40623108/content/
 
 BLOG:
-https://mdecadp2018.github.io/site-40623108/blog/index.html
+https://mdecadp2018.github.io/site-40623108/blog
 
 REVEAL:
-https://mdecadp2018.github.io/site-40623108/reveal/index.html#/
+https://mdecadp2018.github.io/site-40623108/reveal
 
