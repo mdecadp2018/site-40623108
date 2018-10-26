@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/</loc>
-<lastmod>2018-10-26T11:54:32-00:00</lastmod>
+<lastmod>2018-10-26T12:02:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/archives.html</loc>
-<lastmod>2018-10-26T11:54:32-00:00</lastmod>
+<lastmod>2018-10-26T12:02:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/tags.html</loc>
-<lastmod>2018-10-26T11:54:32-00:00</lastmod>
+<lastmod>2018-10-26T12:02:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/categories.html</loc>
-<lastmod>2018-10-26T11:54:32-00:00</lastmod>
+<lastmod>2018-10-26T12:02:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,13 +41,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/2018-1.html</loc>
 <lastmod>2018-10-01T11:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://mdecadp2018/site-40623108/2018fall/blog/2018-Fall-Project-Blog.html</loc>
-<lastmod>2018-09-10T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -69,13 +62,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://mdecadp2018/site-40623108/2018fall/blog/author/40623108.html</loc>
 <lastmod>2018-10-01T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://mdecadp2018/site-40623108/2018fall/blog/author/nfumde.html</loc>
-<lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
