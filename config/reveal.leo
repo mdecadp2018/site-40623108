@@ -27,7 +27,7 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -37,6 +37,9 @@
 <v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
+</v>
+<v t="leo.20181109025803.1" a="E"><vh>onshape</vh>
+<v t="leo.20181109025803.2"><vh>基本方法</vh></v>
 </v>
 </v>
 </v>
@@ -323,6 +326,24 @@ make.start()
     &lt;/script&gt;
 &lt;/section&gt;
 
+
+						
+</t>
+<t tx="leo.20181109025803.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181109025803.2"># Onshape基本用法
+
+*草圖(sketch-based)
+*擠出(extrude)
+*旋轉(revolve)
+*掃描(sweep)
+*斷面混成(loaf)
+*薄殼(shell)
 
 						
 </t>
