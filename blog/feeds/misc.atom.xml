@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623108/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623108/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623108/blog/</id><updated>2018-10-05T11:00:00+08:00</updated><entry><title>week-4</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623108/blog/2018-4.html</id><summary type="html">&lt;p&gt;期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623108/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623108/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623108/blog/</id><updated>2018-11-02T11:00:00+08:00</updated><entry><title>week-8</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-8.html" rel="alternate"></link><published>2018-11-02T11:00:00+08:00</published><updated>2018-11-02T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-11-02:/site-40623108/blog/2018-8.html</id><summary type="html">&lt;p&gt;輔助設計&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;輔助設計&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;一、說明機電資整合設計專案流程所需的相關套件運用與技術&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;第八周在解決問題上有比之前順利很多了&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week-7</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-7.html" rel="alternate"></link><published>2018-10-26T11:00:00+08:00</published><updated>2018-10-26T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-10-26:/site-40623108/blog/2018-7.html</id><summary type="html">&lt;p&gt;CMSimfly、Fossil&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;CMSimfly、Fossil&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;一、說明如何利用 Github, 近端與區域網路中的 Fossil Scm, 保全輔助設計的資料&lt;/p&gt;
+&lt;p&gt;二、說明在使用 CMSimfly 過程, 碰到無法正確解讀 config/content.htm 時, 可更新程式碼或回報問題&lt;/p&gt;
+&lt;p&gt;三、說明如何利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器, 目的在自行建立 Fossil SCM &lt;/p&gt;
+&lt;p&gt;四、展示如何在先前所建立的虛擬 Ubuntu 18.04 上啟動 https 協定下的 Fossil SCM 伺服器&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;第七周有試著去解決程式的問題，也學到了不少處理方式&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week-6</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-6.html" rel="alternate"></link><published>2018-10-19T11:00:00+08:00</published><updated>2018-10-19T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-10-19:/site-40623108/blog/2018-6.html</id><summary type="html">&lt;p&gt;CMSimfly 倉儲&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;CMSimfly 倉儲&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;一、說明如何升級最新的 CMSimfly 倉儲中的 flaskapp.py&lt;/p&gt;
+&lt;p&gt;二、說明電腦輔助設計實習課程中, 有關人事時地物等關鍵內容的架構安排&lt;/p&gt;
+&lt;p&gt;三、說明如何利用 git remote add 在倉儲中, 以代號表示遠端倉儲連結&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;第六周上的課程覺得比較難一些，但會去看過影片後就比較了解&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week-5</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-5.html" rel="alternate"></link><published>2018-10-12T11:00:00+08:00</published><updated>2018-10-12T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40623108/blog/2018-5.html</id><summary type="html">&lt;p&gt;從 Onshapeweek1 課程到 Onshapeweek2&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;從 Onshapeweek1 課程到 Onshapeweek2&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;說明各週設計要點, 針對各英文單字查詢並了解其原意, 最終達到 read 英文內容, 就可了解含意, 而非進行中文翻譯.&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;第五周已經開始在畫每一周的作業了，雖然在畫的時候速度還是比較慢一些&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week-4</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623108/blog/2018-4.html</id><summary type="html">&lt;p&gt;期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明&lt;/p&gt;
 
 
