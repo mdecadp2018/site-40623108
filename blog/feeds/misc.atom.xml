@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623108/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623108/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623108/blog/</id><updated>2018-09-17T11:00:00+08:00</updated><entry><title>week-1</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-1.html" rel="alternate"></link><published>2018-09-17T11:00:00+08:00</published><updated>2018-09-17T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-09-17:/site-40623108/blog/2018-1.html</id><summary type="html">&lt;p&gt;說明如何利用 p37 中的 git 建立個人的 Github Pages 網站&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;說明如何利用 p37 中的 git 建立個人的 Github Pages 網站&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623108/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623108/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623108/blog/</id><updated>2018-09-21T11:00:00+08:00</updated><entry><title>week-2</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-1.html" rel="alternate"></link><published>2018-09-21T11:00:00+08:00</published><updated>2018-09-21T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623108/blog/2018-1.html</id><summary type="html">&lt;p&gt;scrum-2 示範倉儲、Onshape 操作課程&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;scrum-2 示範倉儲、Onshape 操作課程&lt;/p&gt;
 
 
 &lt;h2&gt;課程內容&lt;/h2&gt;
-&lt;p&gt;根據 https://github.com/mdecourse/cadp2018... 的說明, 建立 學號.github.io 網站, 並且從&lt;/p&gt;
-&lt;p&gt;https://github.com/mdecourse/2018fall&lt;/p&gt;
-&lt;p&gt;取得 CMSimfly, Reveal.js 與 Pelican Blog 內容.&lt;/p&gt;
-&lt;p&gt;所建立的示範倉儲與網站:&lt;/p&gt;
-&lt;p&gt;https://github.com/scrum-2/scrum-2.gi...&lt;/p&gt;
-&lt;p&gt;https://scrum-2.github.io&lt;/p&gt;
+&lt;p&gt;一、說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲.&lt;/p&gt;
+&lt;p&gt;二、說明如何管理網際投影片與網誌&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;第二周學到如何編輯blog和投影片以及認識onshape&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week-1</title><link href="https://mdecadp2018.github.io/site-40623108/blog/2018-1.html" rel="alternate"></link><published>2018-09-17T11:00:00+08:00</published><updated>2018-09-17T11:00:00+08:00</updated><author><name>40623108</name></author><id>tag:mdecadp2018.github.io,2018-09-17:/site-40623108/blog/2018-1.html</id><summary type="html">&lt;p&gt;個人的 Github Pages 網站、網際投影片&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;個人的 Github Pages 網站、網際投影片&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;一、說明如何管理個人的期中作業網站內容
+1.各學員登入 Github 後, 可以從 Github Classroom 連結取得所指定的期中作業倉儲.&lt;/p&gt;
+&lt;p&gt;2.各學員將此倉儲 git clone 到近端後, 必須利用 git checkout 從內定的 master 分支, 切換到 gh-pages, 此後的網站改版都將以 gh-pages 分支的內容為主.&lt;/p&gt;
+&lt;p&gt;3.切換到  gh-pages 分支後, 使用者在命令列中進入該倉儲, 然後以 python wsgi.py 啟動 CMSimfly 動態網站, 以內定的 admin 管理者密碼在近端進行內容改版.&lt;/p&gt;
+&lt;p&gt;4.動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.&lt;/p&gt;
+&lt;p&gt;5.使用者可以利用 SciTE 執行 site 倉儲中的 http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容.&lt;/p&gt;
+&lt;p&gt;6.確認靜態網頁內容後, 再設法以 git add, git commit, git push 將新版內容送到遠端.&lt;/p&gt;
+&lt;p&gt;二、說明如何管理期中作業倉儲中的網際投影片
+1.scrum-2 對應作業倉儲:&lt;/p&gt;
+&lt;p&gt;https://github.com/mdecadp2018/site-s...&lt;/p&gt;
 &lt;h2&gt;課程心得&lt;/h2&gt;
 &lt;p&gt;第一周上課的內容其實和之前上的差不多，但還是要多練習打程式碼喔&lt;/p&gt;</content><category term="2018Fall"></category></entry></feed>
