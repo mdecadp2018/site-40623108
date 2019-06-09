@@ -77,7 +77,7 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 <!-- 請注意, @others 不可以內縮 -->
 ### onshape變更後圖檔
 
-<img src="./../images/場地變更.png"></img>
+<img src="./../images/場地變更1.png"></img>
 
     </script>
 </section>
@@ -94,128 +94,58 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+### vrep模擬測試操作影片
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+<iframe width="560" height="314" src="https://www.youtube.com/embed/Tx87h_mkAyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-$$I = \int \rho R^{2} dV$$
     </script>
 </section>
-
-
-
-						
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+### vrep雙人對打基本設定操作影片
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<iframe width="560" height="314" src="https://www.youtube.com/embed/rOSYUfn6ul0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </script>
 </section>
-
-
-						
-</section>
-
-<section data-markdown>
-    <script type="text/template">
-# Onshape基本用法
-
-* 草圖(sketch-based)
-* 擠出(extrude)
-* 旋轉(revolve)
-* 掃描(sweep)
-* 斷面混成(loaf)
-* 薄殼(shell)
-* 陣列(pattern)
-* 切割(split)
-
-						
-    </script>
-</section>
-
 <section>
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 如何管理個人的期中作業網站內容1
+### 手足球完整圖檔vrep設定及模擬操作影片
 
-* 1.各學員登入 Github 後, 可以從 Github Classroom 連結取得所指定的期中作業倉儲.
-
-* 2.各學員將此倉儲 git clone 到近端後, 必須利用 git checkout 從內定的 master 分支, 切換到 gh-pages, 此後的網站改版都將以 gh-pages 分支的內容為主.
-
-
+<iframe width="560" height="314" src="https://www.youtube.com/embed/9jx62Klbqkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
 
 
 
 						
+</section>
+
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 如何管理個人的期中作業網站內容2
+### 心得
 
-* 3.切換到  gh-pages 分支後, 使用者在命令列中進入該倉儲, 然後以 python wsgi.py 啟動 CMSimfly 動態網站, 以內定的 admin 管理者密碼在近端進行內容改版.
+* 從onshape到vrep，花了很多時間學，對繪圖跟模擬都有比之前更加瞭解跟熟悉了，不過還是希望能夠更深入地去理解它。
 
-* 4.動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.
 
     </script>
 </section>
 
-
-
-						
 <section data-markdown>
     <script type="text/template">
-## 如何管理個人的期中作業網站內容3
+### 自評
 
-* 5.使用者可以利用 SciTE 執行 site 倉儲中的 http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容.
+* 學員出席(20%) 20分
+* Github 倉儲管理(20%) 10分
+* Onshape 協同操作(20%) 15分
+* V-rep 模擬(20%) 10分
+* 程式開發(20%) 5分
+* 總分:60分
 
-* 6.確認靜態網頁內容後, 再設法以 git add, git commit, git push 將新版內容送到遠端
     </script>
-</section>
-
-
-						
 </section>
 
 </div>

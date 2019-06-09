@@ -28,37 +28,31 @@
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20181109035441.1" a="E"><vh>onshape場地變更設計</vh>
-<v t="leo.20190610005557.1" a="E"><vh>圖</vh>
+<v t="leo.20190610005557.1"><vh>圖</vh>
 <v t="leo.20190610005557.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 <v t="leo.20190610005818.1" a="E"><vh>影片</vh>
 <v t="leo.20190610005818.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20190610011647.1"><vh>vrep模擬測試</vh>
+<v t="leo.20190610011647.2"><vh>vrep模擬測試</vh>
+<v t="leo.20190610011647.3"><vh>影片</vh></v>
 </v>
-<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180827201621.18"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20190610011647.4"><vh>vrep雙人對打基本設定</vh>
+<v t="leo.20190610011647.5"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20181109025803.1"><vh>onshape</vh>
+<v t="leo.20180827201621.13" a="E"><vh>手足球完整圖檔vrep設定及模擬</vh>
+<v t="leo.20180827201621.14" a="E"><vh>手足球完整圖檔vrep設定及模擬</vh>
+<v t="leo.20180827201621.15"><vh>手足球完整圖檔vrep設定及模擬</vh></v>
+</v>
+</v>
+<v t="leo.20181109025803.1"><vh>心得</vh>
 <v t="leo.20181109025803.2"><vh>基本方法</vh></v>
 </v>
-<v t="leo.20181109032737.1" a="E"><vh>如何管理個人的期中作業網站內容</vh>
-<v t="leo.20181109032737.2" a="E"><vh>如何管理個人的期中作業網站內容1</vh>
-<v t="leo.20181109032737.3"><vh>12</vh></v>
-</v>
-<v t="leo.20181109032737.4"><vh>如何管理個人的期中作業網站內容2</vh>
-<v t="leo.20181109032737.5"><vh>34</vh></v>
-</v>
-<v t="leo.20181109032737.6"><vh>如何管理個人的期中作業網站內容3</vh>
-<v t="leo.20181109032737.7"><vh>56</vh></v>
-</v>
+<v t="leo.20190610012736.1" a="E"><vh>自評</vh>
+<v t="leo.20190610012736.2"><vh>基本方法</vh></v>
 </v>
 </v>
 </v>
@@ -193,66 +187,9 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 
 						
 </t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
+<t tx="leo.20180827201621.15">### 手足球完整圖檔vrep設定及模擬操作影片
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/9jx62Klbqkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -355,75 +292,11 @@ make.start()
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20181109025803.2"># Onshape基本用法
+<t tx="leo.20181109025803.2">### 心得
 
-* 草圖(sketch-based)
-* 擠出(extrude)
-* 旋轉(revolve)
-* 掃描(sweep)
-* 斷面混成(loaf)
-* 薄殼(shell)
-* 陣列(pattern)
-* 切割(split)
-
-						
-</t>
-<t tx="leo.20181109032737.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20181109032737.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+* 從onshape到vrep，花了很多時間學，對繪圖跟模擬都有比之前更加瞭解跟熟悉了，不過還是希望能夠更深入地去理解它。
 
 
-
-						
-</t>
-<t tx="leo.20181109032737.3">## 如何管理個人的期中作業網站內容1
-
-* 1.各學員登入 Github 後, 可以從 Github Classroom 連結取得所指定的期中作業倉儲.
-
-* 2.各學員將此倉儲 git clone 到近端後, 必須利用 git checkout 從內定的 master 分支, 切換到 gh-pages, 此後的網站改版都將以 gh-pages 分支的內容為主.
-
-
-</t>
-<t tx="leo.20181109032737.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20181109032737.5">## 如何管理個人的期中作業網站內容2
-
-* 3.切換到  gh-pages 分支後, 使用者在命令列中進入該倉儲, 然後以 python wsgi.py 啟動 CMSimfly 動態網站, 以內定的 admin 管理者密碼在近端進行內容改版.
-
-* 4.動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.
-
-</t>
-<t tx="leo.20181109032737.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20181109032737.7">## 如何管理個人的期中作業網站內容3
-
-* 5.使用者可以利用 SciTE 執行 site 倉儲中的 http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容.
-
-* 6.確認靜態網頁內容後, 再設法以 git add, git commit, git push 將新版內容送到遠端
 </t>
 <t tx="leo.20181109035441.1">&lt;section&gt;
 @others
@@ -438,7 +311,7 @@ make.start()
 </t>
 <t tx="leo.20190610005557.2">### onshape變更後圖檔
 
-&lt;img src="./../images/場地變更.png"&gt;&lt;/img&gt;
+&lt;img src="./../images/場地變更1.png"&gt;&lt;/img&gt;
 
 </t>
 <t tx="leo.20190610005818.1">&lt;section data-markdown&gt;
@@ -452,5 +325,47 @@ make.start()
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/k_9zQsTGkyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
+<t tx="leo.20190610011647.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20190610011647.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190610011647.3">### vrep模擬測試操作影片
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/Tx87h_mkAyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190610011647.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190610011647.5">### vrep雙人對打基本設定操作影片
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/rOSYUfn6ul0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190610012736.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190610012736.2">### 自評
+
+* 學員出席(20%) 20分
+* Github 倉儲管理(20%) 10分
+* Onshape 協同操作(20%) 15分
+* V-rep 模擬(20%) 10分
+* 程式開發(20%) 5分
+* 總分:60分</t>
 </tnodes>
 </leo_file>
