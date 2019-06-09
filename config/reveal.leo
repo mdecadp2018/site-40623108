@@ -21,14 +21,14 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109035441.1" a="E"><vh>設計</vh>
-<v t="leo.20181109035441.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181109035441.1" a="E"><vh>onshape場地變更設計</vh>
+<v t="leo.20181109035441.2"><vh>onshape</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -141,7 +141,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 40623108網際簡報
+<t tx="leo.20180827201621.10">## 2019Fall 協同產品設計 40623108網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -149,7 +149,7 @@ vertical: body pane on the botton</t>
 Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 &lt;/small&gt;
 
-[2018 Fall 40623108網誌](./../blog/index.html)
+
 
 
 </t>
@@ -402,7 +402,9 @@ make.start()
 
 * 3.切換到  gh-pages 分支後, 使用者在命令列中進入該倉儲, 然後以 python wsgi.py 啟動 CMSimfly 動態網站, 以內定的 admin 管理者密碼在近端進行內容改版.
 
-* 4.動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.</t>
+* 4.動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.
+
+</t>
 <t tx="leo.20181109032737.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -427,11 +429,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109035441.2">* 設計是一種明確與具體的表達, 而且是在仔細思考、多方考量後所完成的表達, 表達具有六種形式, 包括口語、文字、2D、3D、數學與實體表達, 設計的結果可以讓執行者有所依循, 根據指示執行後, 可得預期之結果.
+<t tx="leo.20181109035441.2">##onshape場地變更設計
 
-* 機械是一種器物, 而且是由固體、流體與軟體元件精巧組合而成, 可互動運作, 達成特定功能之器物.
+###操作影片
 
-* 因此機械設計就是靈活運用六種表達, 明確說明如何透過固體、流體與軟體元件之互動運作, 而能達成預定結果之明確與具體表達.
+&lt;iframe src="https://www.youtube.com/watch?v=k_9zQsTGkyU&amp;t=239s" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 </tnodes>
