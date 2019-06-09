@@ -154,7 +154,9 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 [小組網站](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g1/content/index.html)
 &lt;/small&gt;
 
-
+&lt;small&gt;
+[小組倉儲](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g1)
+&lt;/small&gt;
 
 
 </t>
