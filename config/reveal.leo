@@ -24,34 +24,36 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109035441.1" a="E"><vh>onshape場地變更設計</vh>
-<v t="leo.20190610005557.1"><vh>圖</vh>
+<v t="leo.20190610021558.1" a="E"><vh>W11</vh>
+<v t="leo.20190610021558.2"><vh>基本方法</vh></v>
+</v>
+<v t="leo.20181109035441.1"><vh>W12</vh>
+<v t="leo.20190610005557.1" a="E"><vh>圖</vh>
 <v t="leo.20190610005557.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 <v t="leo.20190610005818.1" a="E"><vh>影片</vh>
 <v t="leo.20190610005818.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 </v>
-<v t="leo.20190610011647.1"><vh>vrep模擬測試</vh>
-<v t="leo.20190610011647.2"><vh>vrep模擬測試</vh>
-<v t="leo.20190610011647.3"><vh>影片</vh></v>
+<v t="leo.20190610011647.1"><vh>W13</vh>
+<v t="leo.20190610011647.2"><vh>vrep模擬測試</vh></v>
 </v>
-<v t="leo.20190610011647.4"><vh>vrep雙人對打基本設定</vh>
-<v t="leo.20190610011647.5"><vh>影片</vh></v>
+<v t="leo.20190610022414.1"><vh>W14</vh>
+<v t="leo.20190610022414.2"><vh>基本方法</vh></v>
 </v>
+<v t="leo.20180827201621.13" a="E"><vh>W15</vh>
+<v t="leo.20180827201621.14"><vh>手足球完整圖檔vrep設定及模擬</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>手足球完整圖檔vrep設定及模擬</vh>
-<v t="leo.20180827201621.14" a="E"><vh>手足球完整圖檔vrep設定及模擬</vh>
-<v t="leo.20180827201621.15"><vh>手足球完整圖檔vrep設定及模擬</vh></v>
-</v>
+<v t="leo.20190610022715.1" a="E"><vh>W16</vh>
+<v t="leo.20190610022715.2"><vh>手足球完整圖檔vrep設定及模擬</vh></v>
 </v>
 <v t="leo.20181109025803.1"><vh>心得</vh>
 <v t="leo.20181109025803.2"><vh>基本方法</vh></v>
 </v>
-<v t="leo.20190610012736.1" a="E"><vh>自評</vh>
+<v t="leo.20190610012736.1"><vh>自評</vh>
 <v t="leo.20190610012736.2"><vh>基本方法</vh></v>
 </v>
 </v>
@@ -148,6 +150,10 @@ vertical: body pane on the botton</t>
 Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 &lt;/small&gt;
 
+&lt;small&gt;
+[小組網站](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g1/content/index.html)
+&lt;/small&gt;
+
 
 
 
@@ -171,26 +177,17 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
+<t tx="leo.20180827201621.13">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-
-						
 </t>
-<t tx="leo.20180827201621.15">### 手足球完整圖檔vrep設定及模擬操作影片
+<t tx="leo.20180827201621.14">## WEEK15
 
-&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/9jx62Klbqkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+### 手足球完整圖檔vrep設定及模擬操作影片
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/9jx62Klbqkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -309,7 +306,9 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20190610005557.2">### onshape變更後圖檔
+<t tx="leo.20190610005557.2">## WEEK12
+
+### onshape場地變更後圖檔
 
 &lt;img src="./../images/場地變更1.png"&gt;&lt;/img&gt;
 
@@ -321,37 +320,21 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20190610005818.2">### onshape 操作影片
+<t tx="leo.20190610005818.2">### onshape 場地變更操作影片
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/k_9zQsTGkyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20190610011647.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20190610011647.2">&lt;section data-markdown&gt;
+<t tx="leo.20190610011647.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20190610011647.3">### vrep模擬測試操作影片
+<t tx="leo.20190610011647.2">## WEEK13
 
-&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/Tx87h_mkAyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+### vrep模擬測試操作影片
 
-</t>
-<t tx="leo.20190610011647.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20190610011647.5">### vrep雙人對打基本設定操作影片
-
-&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/rOSYUfn6ul0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/Tx87h_mkAyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190610012736.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -367,5 +350,48 @@ Created by [40623108](https://github.com/mdecadp2018/site-40623108)
 * V-rep 模擬(20%) 10分
 * 程式開發(20%) 5分
 * 總分:60分</t>
+<t tx="leo.20190610021558.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190610021558.2">## WEEK11
+
+* 這週先分配各組員的工作內容以及繪製初步ONSHAPE零件之尺寸。
+
+* 負責項目: onshape場地變更、vrep模擬
+
+
+</t>
+<t tx="leo.20190610022414.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190610022414.2">## WEEK14
+
+### vrep雙人對打基本設定操作影片
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/rOSYUfn6ul0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20190610022715.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190610022715.2">## WEEK16
+
+* 這週更新個人倉儲部分以及期末影片。
+
+&lt;small&gt;
+[40623108個人倉儲](https://github.com/mdecadp2018/site-40623108)
+&lt;/small&gt;</t>
 </tnodes>
 </leo_file>
