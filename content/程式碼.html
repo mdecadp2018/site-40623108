@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>計算機程式教材</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>40623108</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='協同產品設計.html'>協同產品設計</a><ul><li><a href='bubbleRob操作影片.html'>bubbleRob操作影片</a><li><a href='期中自評影片.html'>期中自評影片</a><li><a href='onshape場地設計變更.html'>onshape場地設計變更</a><li><a href='vrep模擬測試.html'>vrep模擬測試</a><li><a href='vrep雙人對打基本設定.html'>vrep雙人對打基本設定</a><li><a href='手足球完整圖檔vrep設定及模擬.html'>手足球完整圖檔vrep設定及模擬</a><li><a href='期末考影片.html'>期末考影片</a><ul><li><a href='程式碼.html'>程式碼</a></li></li></ul></ul><li><a href='site-40623108.html'>site-40623108</a><ul><li><a href='HOMEWORK.html'>HOMEWORK</a><ul><li><a href='WEEK2.html'>WEEK2</a><li><a href='WEEK3.html'>WEEK3</a><li><a href='WEEK4.html'>WEEK4</a><li><a href='WEEK5.html'>WEEK5</a></li></ul><li><a href='課程影片.html'>課程影片</a><ul><li><a href='Week1a.html'>Week1a</a><li><a href='Week 2a.html'>Week 2a</a><li><a href='Week 3a.html'>Week 3a</a><li><a href='Week4a.html'>Week4a</a><li><a href='Week5a.html'>Week5a</a><li><a href='Week6a.html'>Week6a</a><li><a href='Week7a.html'>Week7a</a><li><a href='Week8a.html'>Week8a</a></li></ul><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>期末考影片 << <a href='期末考影片.html'>Previous</a> <a href='site-40623108.html'>Next</a> >> site-40623108<br /><h1>程式碼</h1>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import keyboard
+import time
+import sys, math     
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+  
+vrep.simxFinish(-1)
+
+
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+KickBallV = 360
+R_KickBallVel = (math.pi/180)*KickBallV
+B_KickBallVel = -(math.pi/180)*KickBallV
+if clientID!= -1:al
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+    
+errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)
+errorCode,Pr1_handle=vrep.simxGetObjectHandle(clientID,'Pr1',vrep.simx_opmode_oneshot_wait)
+errorCode,Re1_handle=vrep.simxGetObjectHandle(clientID,'Re1',vrep.simx_opmode_oneshot_wait)
+errorCode,Re2_handle=vrep.simxGetObjectHandle(clientID,'Re2',vrep.simx_opmode_oneshot_wait)
+
+
+vrep.simxSetJointTargetVelocity(clientID,Pr1_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,Re1_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,Re2_handle,0,vrep.simx_opmode_oneshot_wait)
+
+
+
+vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
+while True:
+    try:
+            if keyboard.is_pressed('a'): 
+                vrep.simxSetJointTargetVelocity(clientID,Re1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            else:
+                vrep.simxSetJointTargetVelocity(clientID,Re1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            if keyboard.is_pressed('l'):  
+                vrep.simxSetJointTargetVelocity(clientID,Re2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            else:
+                vrep.simxSetJointTargetVelocity(clientID,Re2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            if keyboard.is_pressed('up'): 
+                vrep.simxSetJointTargetVelocity(clientID,Pr1_handle,6,vrep.simx_opmode_oneshot_wait)
+            else:
+                vrep.simxSetJointTargetVelocity(clientID,Pr1_handle,-200,vrep.simx_opmode_oneshot_wait)
+    except:
+            break
+</pre>
+<br />期末考影片 << <a href='期末考影片.html'>Previous</a> <a href='site-40623108.html'>Next</a> >> site-40623108</section></div></body></html>
